@@ -1,0 +1,212 @@
+
+
+{ 
+  "quiz_two" : [
+        {
+          "id":1,
+          "questionType": "complete_the_sentence",
+          "questionText": "In java the ___________ data type is used to create a variable that should store text?",
+          "answerFieldId": "answer_to_question",
+          "correctAnswer": "string",
+          "feedback": "String is a special data type that is used to store text."
+        },
+        {
+            "id":2,
+            "questionType" : "true_false",
+            "questionText" : "Java and javascript are the same thing?",
+            "options" : ["true", "false"],
+            "correctAnswer" : "false",
+            "feedback": "Java and Javascript are two different languages. Java is a language used to create software applications and applets, while Javascript is a scripting language used to create dynamic and interactive content on webpages."
+        },
+        {
+           "id":3,
+        "questionType": "multiple_choice",
+        "questionText": "Which loop type would you use to repeat a task a set number of times?",
+        "options": [
+          "for",
+          "switch",
+          "while",
+          "froot loops"],
+        "correctAnswer": "for",
+        "feedback": "The for loop is used to repeat a task a set number of times. The while loop repeats a segment of code an unknown number of times. Switch is a conditional statement, not a loop. Froot Loops are not a type of loop in java."
+        },
+        {
+           "id":4,
+        "questionType" : "true_false",
+        "questionText": "The length() method can be used to find the length of a string?",
+        "options" : ["true", "false"],
+        "correctAnswer": "true",
+         "feedback": "The length() is used to find the length of a string."
+        },
+        {
+            "id":5,
+        "questionType": "text_input",
+        "questionText": "Which keyword is used to import a package from the Java API library?",
+        "correctAnswer": "import",
+        "answerFieldId": "answer_to_question",
+        "feedback": "The import keyword is used to import a package, class or interface."
+        },
+        {
+            "id":6,
+        "questionType": "complete_the_sentence",
+        "questionText": "The ______________ package is imported by default into Java programs?",
+        "answerFieldId": "answer_to_question",
+        "correctAnswer": "java.lang",
+        "feedback": "The java.lang package provides classes that are fundamental to developing Java programs including the String class and the Math class."
+        },
+        {
+           "id":7,
+          "questionType": "multiple_choice",
+          "questionText": "Which interface should be used by a Java program to be able to play audio files?",
+          "options": [
+            "ActionListener",
+            "TextListener",
+            "WindowListener",
+            "AudioClip"],
+          "correctAnswer": "AudioClip",
+          "feedback": "The AudioClip interface is located in the java.applet package and can be used to play audio files."
+        },
+        {
+            "id":8,
+        "questionType": "text_input",
+        "questionText": "What will be the output of this code? \n String aString = \"Crayons are great!\"; \n System.out.print(aString.charAt(8))",
+        "answerFieldId": "answer_to_question",
+        "correctAnswer": "a",
+        "feedback": "The charAt() functions returns a character from a string at a specified index. In this case it is index 8 where the 'a' character is located."
+        },
+        {
+           "id":9,
+        "questionType": "multiple_choice",
+        "questionText": "What is the name of the process by which two or more strings are joined together?",
+        "options": [
+          "Concatenation",
+          "charAt",
+          "Method",
+          "Association"],
+        "correctAnswer": "Concatenation",
+        "feedback": "This is achieved with the use of the + operator. You can use concatenation to join two or more strings into one or print two or more strings together."
+        },
+        {
+          "id":10,
+        "questionType": "multiple_choice",
+        "questionText": "Which of the following can be used to access the first element of an array named arrOne?",     
+        "options": [
+          "arrOne[2]",
+          "arrOne[0]",
+          "arrOne[3]",
+          "arrOne[1]"],
+        "correctAnswer": "arrOne[0]",
+        "feedback": "Array indexes begin at 0, so the first element of an array is at index 0, the second element at index 1, and so on."
+
+        },
+        {
+             "id":11,
+        "questionType" : "true_false",
+        "questionText": "main() method is used in every Java program?",
+        "options" : ["true", "false"],
+        "correctAnswer": "true",
+        "feedback": "The main() method is what makes a Java program work. System.out.print() and System.out.println() are used to print text. There is no type() method in Java."
+        },
+        {
+             "id":12,
+        "questionType": "multiple_choice",
+        "questionText": "Which package needs to be imported so that you can accept user input?",
+        "options": [
+          "java.util",
+          "java.io",
+          "java.awt",
+          "java.awt.event"],
+        "correctAnswer": "java.io",
+        "feedback": "The java.io package provides classes for input and output for things like interaction with the user and reading and writing to files"
+        },
+        {
+           "id":13,
+        "questionType": "yes_no",
+        "questionText": "The == operator can be used to compare two values?",
+        "options": [
+          "Yes",
+          "No"],
+        "correctAnswer": "Yes",
+        "feedback": "The == operator can be used to compare two values."
+        },
+        {
+           "id":14,
+        "questionType": "multiple_choice",
+        "questionText": "Which keyword would you use if you wanted a class to use an interface?",
+        "options": [
+          "main()",
+          "new",
+          "implements",
+          "extends"],
+        "correctAnswer": "implements",
+        "feedback": "To use an interface, use the implements keyword with the name of the interface in the class declaration line in your code."
+        },
+        {
+            "id":15,
+        "questionType" : "true_false",
+        "questionText": "In java # can be used to insert comments?",
+        "options": ["True","False"],
+        "correctAnswer": "False",
+        "feedback": "In java // or /* are used to write comments."
+        },
+        {
+             "id":16,
+        "questionType": "complete_the_sentence",
+        "questionText": "The _______ operator is used to multiply numbers",
+        "answerFieldId": "answer_to_question",
+        "correctAnswer": "*",
+        "feedback": "The * is used to multiply numbers."
+        },
+        {
+            "id":17,
+        "questionType": "multiple_choice",
+        "questionText": "Which of the following would you use to test a variable for five different values?",
+        "options": [
+          "else-if statement",
+          "else statement",
+          "switch statement",
+          "if statement"],
+        "correctAnswer": "switch statement",
+        "feedback": "The switch statement is specifically designed to test one variable for a number of possible values."
+        },
+        {
+            "id":18,
+        "questionType": "multiple_choice",
+        "questionText": "What is it called when an instance of a class is also an instance of its superclass?",
+        "options": [
+          "Instantiation",
+          "Polymorphism",
+          "Inheritance",
+          "Encapsulation"],
+        "correctAnswer": "Polymorphism",
+        "feedback": "Polymorphism is when an instance of a class is also an instance of its superclass."
+        },
+        {
+            "id":19,
+        "questionType": "multiple_choice",
+        "questionText": "Which of the following snippets of code can be used to instantiate an object?",
+        "options": [
+          "Class A = new AClass();",
+          "AClass.newClass()",
+          "AClass.instantiate();",
+          "AClass.create();"],
+        "correctAnswer": "Class A = new AClass();",
+        "feedback": "Class A = new AClass(); creates an object named A which is an instance of the AClass class."
+        },
+        {
+              "id": 20,
+        "questionType": "multiple_choice",
+        "questionText": "Which of the following GUI components can be included in a Java frame?",
+        "options": [
+          "textbox",
+          "button",
+          "label",
+          "All of the above"],
+        "correctAnswer": "All of the above",
+        "feedback": "Textbox, label, button, images (and more) can all be included in a Java frame."
+        }
+    ]
+
+
+}
+
